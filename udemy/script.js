@@ -78,31 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//Top trends for the future of work
-document.addEventListener("DOMContentLoaded", function () {
-    const section = document.querySelector(".report-section");
-
-    function fadeInOnScroll() {
-        const sectionPosition = section.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.3;
-        
-        if (sectionPosition < screenPosition) {
-            section.classList.add("fade-in");
-        }
-    }
-
-    window.addEventListener("scroll", fadeInOnScroll);
-});
-
-// Add this CSS animation
-/*
-.fade-in {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-*/
-
 //Trending Now
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -142,13 +117,3 @@ nextButton.addEventListener("click", () => {
 
 // Initialize Active Dot
 updateActiveDot(currentIndex);
-
-
-//explore top skills and certifications
-
-document.querySelectorAll(".category li").forEach(item => {
-    item.addEventListener("click", () => {
-        alert(`You selected: ${item.textContent}`);
-    });
-});
-//Footer
