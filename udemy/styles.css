@@ -1,0 +1,1143 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.imgudemy {
+  bottom: 40px;
+  background-color: #5a2ca0;
+}
+
+.explore-btn {
+  font-weight: lighter;
+  background-color: white;
+  border: none;
+}
+.explore-btn:hover {
+  background-color: #f3e5ff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.search-bar {
+  padding: 8px;
+  width: 550px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: white;
+  border: 1px solid #5a2ca0;
+  color: #5a2ca0;
+}
+
+.signup {
+  background-color: #5a2ca0;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 50px;
+  /* text-align: left; 
+     position: relative;  */
+  background-image: url("https://learningtoday.net/wp-content/uploads/2024/03/udemy-free-courses.webp");
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: red;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.learn-python {
+  background-color: #5a2ca0;
+  color: white;
+}
+
+.learn-excel {
+  background-color: white;
+  border: 1px solid #5a2ca0;
+  color: #5a2ca0;
+}
+
+.hero_prev,
+.hero_next {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* skills section*/
+
+.skills-section {
+
+  padding: 40px;
+  text-align: start;
+}
+.skills-section h2 {
+  font-size: 30px;
+}
+.skills-section p {
+  font-size: 18px;
+  
+}
+.categories {
+  
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin: 20px 0px;
+}
+
+.category { 
+  
+  font-size: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.category.active {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+/* skills  next section*/
+.skill-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.skill.active {
+  background-color: black;
+  color: white;
+}
+
+/* trusted-companies*/
+.trusted-companies {
+
+  text-align: center;
+  margin: 40px 0;
+}
+
+.trusted-companies p {
+  font-size: 14px;
+  color: #777;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.company-logos img {
+  height: 70px;
+  opacity: 0.7;
+}
+
+/* Learners Viewing Section */
+.learners-viewing {
+  
+  padding: 40px;
+  text-align: left;
+}
+
+.learners-viewing h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Course Carousel */
+.course-container {
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  /* max-width: 200px; */
+  position: relative;
+}
+
+.courses {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.course-card {
+  background: white;
+  /* background-color: #4b0082; */
+  /* width: 400px; */
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.course-card h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.course-card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.rating {
+  font-size: 14px;
+  color: #f5a623;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.premium {
+  background-color: purple;
+  color: white;
+}
+
+.bestseller {
+  background-color: green;
+  color: white;
+}
+
+.scroll-left,
+.scroll-right {
+  background: none;
+  border: none;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.scroll-left {
+  left: 0;
+}
+
+.scroll-right {
+  right: 0;
+}
+/* Learning focused on your goals & graph*/
+/* Main Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  /* max-width: 1200px; */
+  margin: auto;
+  gap: 150px;
+}
+.h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.card.active {
+  border: 2px solid #8000ff;
+}
+
+.card .icon img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.card .content h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card .content p {
+  font-size: 14px;
+  color: #555;
+}
+/* Link Styling */
+.link {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8000ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Badge Styling */
+.badge {
+  background-color: #8000ff;
+  color: white;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+/* Graph Styling */
+
+.browser-header {
+  width: 80%;
+  max-width: 700px;
+  height: 30px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+/* Title Section */
+
+.header_questions_container {
+  width: 600px;
+  background: #f4f0fc; /* Light purple */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header-section_title {
+  padding: 20px;
+}
+
+.header-section_title h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-section_title p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Score Section */
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px; /* Adjust width as needed */
+}
+
+/* Score Text */
+.score-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Score Link */
+.score-link a {
+  font-size: 14px;
+  color: #5a2ca0;
+  text-decoration: none;
+}
+
+.score-link a:hover {
+  text-decoration: underline;
+}
+
+/* graph img */
+.graph {
+  margin: 20px 0;
+}
+
+.graph img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.percentile {
+  border: 0.7px solid black;
+  font-size: smaller;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Answers Section */
+.answers-section {
+  font-size: small;
+  color: black;
+}
+h3 {
+  margin-top: 1px;
+  font-size: 15px;
+}
+P {
+  font-size: 8px;
+}
+
+.filter-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.filter-options select {
+  padding: 5px;
+}
+
+.score-summary {
+  background-color: #f4f0fc;
+  border: 1px solid #6a0dad;
+  padding: 7px 7px;
+  border-radius: 5px;
+}
+
+.score-summary_brown {
+  background-color: #fef7ec;
+  border: 1px solid #e5a15b;
+  padding: 7px 7px;
+  border-radius: 5px;
+}
+.score-summary_lightgrey {
+  background-color: #f8f9fa;
+  border: 1px solid #d6d9dc;
+  padding: 7px 7px;
+  border-radius: 5px;
+}
+/* Question Styles */
+.question {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.question-header {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.status {
+  padding: 6px;
+  font-size: 12px;
+  color: black;
+}
+
+/* Accelerate growth – for you or your organization */
+
+.pricing-section {
+  background-color: white;
+ padding: 20px;
+text-align: center;
+} 
+
+/* Section Title */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtext {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Plans Container */
+.plans-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+/* Plan Card */
+
+.plan-card_BGC {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+  border-top: 9px solid #6A0DAD;
+}
+.plan-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  /* height: 200px; */
+  text-align: left;
+  
+  border-top: 9px solid #5624D0;
+}
+
+.plan-card h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+
+}
+
+.plan-card_BGC h2{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.plan-type {
+  color: gray;
+  font-size: 14px;
+}
+
+.users {
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.billing-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.subscribe-btn, .demo-btn {
+  display: block;
+  width: 100%;
+  background-color: #5624D0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.subscribe-btn:hover, .demo-btn:hover {
+  background-color: #6a1b9a;
+}
+
+/* Features List */
+.features {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.features li {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
+}
+
+/*See what others are achieving through learning*/
+
+/* Section Styling */
+.testimonials {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+/* Container Styling */
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card Styling */
+.testimonial-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+/* Quote Styling */
+blockquote {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* User Info Styling */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.course-link {
+  color: purple;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.course-link:hover {
+  text-decoration: underline;
+}
+
+/*Top trends for the future of work*/
+
+.report-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px;
+  margin: auto;
+}
+
+.report-content {
+  max-width: 40%;
+}
+
+.report-content h2 {
+  font-size: 2rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.report-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6A0DAD;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #4b0082;
+}
+
+.report-images {
+  position: relative;
+  max-width: 90%;
+}
+
+.main-report {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.secondary-report {
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+/*Trending Now*/
+
+/* Trending Section */
+.trending-section {
+  background: #f4f4f4;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.trending-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top-skill {
+  margin-bottom: 20px;
+}
+
+.top-skill h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chatgpt-link {
+  color: #8000ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin: 10px 0;
+}
+
+.learner-count {
+  color: gray;
+  font-size: 14px;
+}
+
+.trending-btn {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Trending Categories */
+.trending-categories {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.trending_category {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.trending_category h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.trending_category a {
+  display: block;
+  text-decoration: none;
+  color: #8000ff;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.trending_category span {
+  display: block;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/*Booz*/
+
+/* Container Layout */
+.Booz_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 50px;
+  margin: auto;
+}
+
+/* Left Text Content */
+.text-content {
+  max-width: 50%;
+}
+
+.company-name {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #222;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  margin: 20px 0;
+}
+
+.stat {
+  margin-right: 40px;
+}
+
+.stat h2 {
+  font-size: 28px;
+  color: #222;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 0;
+}
+
+/* CTA Button */
+.Booz_cta-button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.Booz_cta-button:hover {
+  background-color: #580c93;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.prev, .next {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #580c93;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #6a0dad;
+}
+
+/* Right Image Content */
+.image-content {
+  max-width: 45%;
+}
+
+.image-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*explore top skills and certifications*/
+.top-section {
+
+  background-color: #181818;
+  
+  padding: 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: #a855f7;
+  font-weight: bold;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.company-logos img {
+
+  height: 40px;
+}
+
+.top_skills_skills-sections {
+  
+  padding: 40px 40px;
+  background-color: #181818;
+  
+  margin: auto;
+}
+
+.top_skills_skills-sections  h2 {
+  text-align: start;
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.top_skills_categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.top_skills_category h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.top_skills_category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top_skills_category li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.top_skills_category li:hover {
+  /* color: #a855f7; */
+   text-decoration:underline;
+}
+
+
+/*Footer*/
+.footer {
+  background-color: #111;
+  padding: 30px 50px;
+}
+
+/* Footer Sections */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left img {
+  width: 80px;
+  margin-right: 10px;
+}
+.Udemy_logo_content{
+  color: white;
+}
+.footer-right a {
+  text-align: center;
+  text-decoration: none;
+  color: #ccc;
+  margin-right: 450px;
+}
+
+.footer-right a:hover {
+  color: #fff;
+}
+
+
