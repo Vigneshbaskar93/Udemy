@@ -750,15 +750,6 @@ blockquote {
   margin: auto;
 }
 
-.fade-in {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-.report-content {
-  max-width: 40%;
-}
-}
-
 .report-content h2 {
   font-size: 2rem;
   color: #222;
@@ -873,16 +864,16 @@ blockquote {
   gap: 60px;
 }
 
-.category {
+.right-section_category {
   flex: 1;
 }
 
-.category h3 {
+.right-section_category h3 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.category a {
+.right-section_category a {
   display: block;
   color: #6a1b9a;
   font-weight: bold;
@@ -890,11 +881,11 @@ blockquote {
   margin-top: 10px;
 }
 
-.category a:hover {
+.right-section_category a:hover {
   text-decoration: underline;
 }
 
-.category p {
+.right-section_category p {
   color: #777;
   font-size: 14px;
   margin: 5px 0 15px;
