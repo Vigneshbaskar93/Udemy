@@ -47,12 +47,12 @@ document.querySelector(".scroll-right").addEventListener("click", () => {
     document.querySelector(".courses").scrollBy({ left: 300, behavior: "smooth" });
 });
 
-document.querySelector(".scroll-left").addEventListener("click", () => {
-    document.querySelector(".courses").scrollBy({ left: -300, behavior: "smooth" });
+document.querySelector(".Learners_scroll-left").addEventListener("click", () => {
+    document.querySelector(".Learners_courses").scrollBy({ left: -300, behavior: "smooth" });
 });
 
-document.querySelector(".scroll-right").addEventListener("click", () => {
-    document.querySelector(".courses").scrollBy({ left: 300, behavior: "smooth" });
+document.querySelector(".Learners_scroll-right").addEventListener("click", () => {
+    document.querySelector(".Learners_courses").scrollBy({ left: 300, behavior: "smooth" });
 });
 
 //Card button click
